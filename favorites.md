@@ -36,4 +36,5 @@
 
 <img src="https://github.com/Char1iee/Personal_Pages/assets/47782807/5025dbbf-e6c0-4b60-ae1a-585c7d9d3dc5" align="center" width="512" height="682.4"/>
 
+<\br>
 [Back to index](index.md)
