@@ -41,7 +41,7 @@ def hello_world():
     print("Hello, World!")
 ```
 
-### [More Favorites](favorite.md)
+### [More Favorites](favorites.md)
 
 ### Connect With Me
 - [Github](https://github.com/Char1iee)
