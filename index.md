@@ -32,7 +32,7 @@ There exists a few stereotypes about not only CS but also science and engineerin
 
 ### My Favorite Sentence
 
-> "Good morning, and in case I don't see ya, good afternoon, good evening, and good night!" - The Truman Show
+> ***"Good morning, and in case I don't see ya, good afternoon, good evening, and good night!"*** - The Truman Show
 
 ### My Favorite Code
 
