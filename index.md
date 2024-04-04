@@ -44,7 +44,7 @@ def hello_world():
 ### Connect With Me
 - [Github](https://github.com/Char1iee)
 - [LinkedIn](https://www.linkedin.com/in/charlie-shang1/)
-- [Discord](discordapp.com/users/889231125132759130)
+- [Discord](https://discordapp.com/users/889231125132759130)
 
 
 
