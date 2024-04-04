@@ -41,12 +41,10 @@ def hello_world():
     print("Hello, World!")
 ```
 
+### [More Favorites](favorite.md)
+
 ### Connect With Me
 - [Github](https://github.com/Char1iee)
 - [LinkedIn](https://www.linkedin.com/in/charlie-shang1/)
 - [Discord](https://discordapp.com/users/889231125132759130)
 
-
-
-
-[Back to Main Page](README.md)
