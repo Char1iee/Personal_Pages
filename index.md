@@ -21,10 +21,25 @@ There exists a few stereotypes about not only CS but also science and engineerin
 
 ### My Projects
 1. [NBA Odds Analysis](https://github.com/Char1iee/NBA_Odds_Analysis) - Build ML models on NBA odds dataset
-2. [Adversarial Attacks on ML-based Intrusion Detection](https://github.com/Char1iee/UCSD-Cyberlab) - Build ML models on IoT dataset and evaluate attacks
+2. [Adversarial Attacks on ML-based Intrusion Detection](https://github.com/Char1iee/UCSD-Cyberlab) - Build ML models on IoT dataset and evaluate attacks(on-going)
 3. Shoot'Em Up Game Demo - Mini game demo built by pygame
 
+### Current Interests
+- [X] Learn AI and machine learning
+- [ ] Find an internship in summer
+- [ ] Learn HTML, Javascript, and React
+- [ ] Publish a paper on intrusion detection project
 
 ### My Favorite Sentence
 
+> "Good morning, and in case I don't see ya, good afternoon, good evening, and good night!" - The Truman Show
+
 ### My Favorite Code
+
+```python
+def hello_world():
+    print("Hello, World!")
+```
+
+
+[Back to Main Page](README.md)
