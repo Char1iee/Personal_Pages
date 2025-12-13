@@ -1,43 +1,13 @@
 [
   {
-    "title": "Blog Post Title 1",
-    "excerpt": "Brief excerpt of the blog post. This gives readers a preview of what the post is about.",
-    "date": "2024-06-15",
-    "category": "technical",
-    "tags": ["Python", "Web Development", "Tutorial"],
-    "readingTime": 5,
-    "url": "https://yourblog.com/post-1",
-    "image": "assets/images/blog/post1.jpg"
-  },
-  {
-    "title": "Learning Experience: Building My First Full-Stack App",
-    "excerpt": "A write-up about my experience building a full-stack application, challenges faced, and lessons learned.",
-    "date": "2024-05-20",
-    "category": "learning",
-    "tags": ["Learning", "Full-Stack", "Experience"],
-    "readingTime": 8,
-    "url": "https://yourblog.com/post-2",
-    "image": "assets/images/blog/post2.jpg"
-  },
-  {
-    "title": "Industry Insights: The Future of AI",
-    "excerpt": "My thoughts on current trends in AI and where the industry is heading.",
-    "date": "2024-04-10",
-    "category": "insights",
-    "tags": ["AI", "Industry", "Trends"],
-    "readingTime": 6,
-    "url": "https://yourblog.com/post-3",
-    "image": "assets/images/blog/post3.jpg"
-  },
-  {
-    "title": "Project Write-up: Building a Recommendation System",
-    "excerpt": "Detailed write-up about a project I worked on, including the problem, solution, and results.",
-    "date": "2024-03-05",
-    "category": "project",
-    "tags": ["Machine Learning", "Project", "Case Study"],
-    "readingTime": 10,
-    "url": "https://yourblog.com/post-4",
-    "image": "assets/images/blog/post4.jpg"
+    "title": "Under Construction",
+    "excerpt": "This page is under construction. I will add blog posts here soon.",
+    "date": "2025-12-13",
+    "category": "blog",
+    "tags": ["Blog", "Under Construction"],
+    "readingTime": 0,
+    "url": "",
+    "image": ""
   }
 ]
 
