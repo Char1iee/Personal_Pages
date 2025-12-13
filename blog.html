@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blog posts and articles">
+    <title>Blog | Your Name</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">About</a></li>
+                <li><a href="projects.html" class="nav-link">Projects</a></li>
+                <li><a href="experience.html" class="nav-link">Experience</a></li>
+                <li><a href="publications.html" class="nav-link">Publications</a></li>
+                <li><a href="blog.html" class="nav-link active">Blog</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <section class="page-header">
+            <h1 class="page-title">Blog</h1>
+            <p class="page-subtitle">Thoughts, insights, and learning experiences</p>
+        </section>
+
+        <!-- Filter Buttons -->
+        <section class="filter-section">
+            <div class="filter-buttons" id="blogFilters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="technical">Technical</button>
+                <button class="filter-btn" data-filter="project">Project Write-ups</button>
+                <button class="filter-btn" data-filter="learning">Learning</button>
+                <button class="filter-btn" data-filter="insights">Industry Insights</button>
+            </div>
+        </section>
+
+        <!-- Blog Posts -->
+        <section class="blog-posts" id="blogPosts">
+            <!-- Blog posts will be loaded dynamically from blog.json -->
+        </section>
+    </main>
+
+    <script src="assets/js/navigation.js"></script>
+    <script src="assets/js/blog.js"></script>
+</body>
+</html>
+

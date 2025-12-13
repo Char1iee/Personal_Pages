@@ -1,0 +1,44 @@
+{
+  "name": "Zhengli Shang",
+  "role": "UCLA MSCS Student",
+  "tagline": "Data Science, Machine Learning, AI Software Engineering, Agent Building",
+  "intro": "I am a Master's student in Computer Science at UCLA, with a strong background in machine learning, AI, and Agent Building. I currently work as a Founding Member & Machine Learning Engineer at Unifinity AI Inc., where I develop LLM-powered marketing agents. My past research experiences focus on developing robust ML-based intrusion detection systems and continual learning frameworks for IoT security. I am seeking intern/full-time opportunities in Machine Learning Engineering, AI Research, and Software Engineering roles.",
+  "skills": {
+    "categories": [
+      {
+        "name": "ML / AI",
+        "skills": ["PyTorch", "TensorFlow", "scikit-learn", "Hugging Face Transformers", "LangChain", "Continual Learning"]
+      },
+      {
+        "name": "Software Development",
+        "skills": ["Git", "CI/CD", "Object Oriented Design", "Agile practices"]
+      },
+      {
+        "name": "Distributed Systems",
+        "skills": ["AWS", "ROS / ROS2", "ros1_bridge"]
+      }
+    ]
+  },
+  "contact": [
+    {
+      "name": "Email",
+      "url": "mailto:charlieshang1@gmail.com",
+      "icon": ""
+    },
+    {
+      "name": "GitHub", 
+      "url": "https://github.com/Char1iee",
+      "icon": ""
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://linkedin.com/in/charlie-shang1",
+      "icon": ""
+    },
+    {
+      "name": "Google Scholar",
+      "url": "https://scholar.google.com/citations?user=MaujhpQAAAAJ&hl=en",
+      "icon": ""
+    }
+  ]
+}

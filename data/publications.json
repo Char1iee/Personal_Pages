@@ -1,0 +1,72 @@
+[
+  {
+    "title": "SAGE: Sample-Aware Guarding Engine for Robust Intrusion Detection Against Adversarial Attacks",
+    "authors": "Jing Chen, Onat Gungor, Zhengli Shang, and Tajana Rosing",
+    "venue": "IEEE Transactions on Information Forensics and Security (TIFS)",
+    "date": "2025-06-01",
+    "category": "journal",
+    "abstract": "Proposed SAGE, a sample-aware defense engine that integrates active learning with targeted data reduction to select the most effective defense against adversarial attacks in ML-based intrusion detection. Built a two-level defense selection pipeline that identifies highly informative samples and generates optimal defense labels for training a second-stage meta-learner. Achieved up to 201% F1-score improvement over state-of-the-art defenses across multiple IoT IDS datasets while reducing computational cost by up to 29× and narrowing the gap to the Oracle to just 3.8%.",
+    "pdf": "",
+    "arxiv": "https://arxiv.org/abs/2509.08091",
+    "doi": "",
+    "github": "",
+    "website": "",
+    "status": "Under submission"
+  },
+  {
+    "title": "CITADEL: Continual Anomaly Detection for Enhanced Learning in IoT Intrusion Detection",
+    "authors": "Elvin Li, Onat Gungor, Zhengli Shang, and Tajana Rosing",
+    "venue": "IEEE Internet of Things Journal (IoTJ)",
+    "date": "2025-06-01",
+    "category": "journal",
+    "abstract": "Developed a self-supervised continual learning framework for IoT intrusion detection that learns robust benign traffic representations while retaining long term knowledge via optimized memory consolidation. Integrated a tabular to image transformation module and a memory aware masked autoencoder (MAE) to enable anomaly detection without labeled attack data. Designed a novelty detection component to adapt to emerging cyber threats while retaining detection of known attacks, achieving up to 72.9% improvement over a VAE based lifelong anomaly detector (VLAD) on multiple IoT datasets.",
+    "pdf": "",
+    "arxiv": "https://arxiv.org/abs/2508.19450",
+    "doi": "",
+    "github": "",
+    "website": "",
+    "status": "Under submission"
+  },
+  {
+    "title": "DYNAMITE: Dynamic Defense Selection for Enhancing Machine Learning-based Intrusion Detection Against Adversarial Attacks",
+    "authors": "Jing Chen, Onat Gungor, Zhengli Shang, Elvin Li, and Tajana Rosing",
+    "venue": "IEEE/ACM Workshop on the Internet of Safe Things",
+    "date": "2025-04-01",
+    "category": "workshop",
+    "abstract": "Developed DYNAMITE framework adaptively selecting most effective defenses against diverse adversarial attacks in real-time. Implemented adversarial attack generation and integrated nine state-of-the-art defenses with XGBoost-based dynamic assignment. Achieved 76.7% F1-score improvement over random defense with 96.2% computational cost reduction.",
+    "pdf": "",
+    "arxiv": "https://arxiv.org/abs/2504.13301",
+    "doi": "",
+    "github": "",
+    "website": "",
+    "status": "Accepted (Best Paper Award)"
+  },
+  {
+    "title": "SAFE: Self-Supervised Anomaly Detection Framework for Intrusion Detection",
+    "authors": "Elvin Li, Zhengli Shang, Onat Gungor, and Tajana Rosing",
+    "venue": "AAAI Workshop on AI for Cyber Security (AICS)",
+    "date": "2025-03-01",
+    "category": "workshop",
+    "abstract": "Proposed SAFE framework transforming tabular network traffic into image-like representations for robust feature learning with MAEs. Developed lightweight novelty detection module leveraging MAE-extracted representations to detect unknown and evolving cyber threats without labeled data. Achieved 26.2% F1-score improvement over SLAD and 23.5% improvement over Anomal-E across multiple IoT datasets.",
+    "pdf": "",
+    "arxiv": "https://arxiv.org/abs/2502.07119",
+    "doi": "",
+    "github": "",
+    "website": "",
+    "status": "Accepted"
+  },
+  {
+    "title": "Rigorous Evaluation of Machine Learning-Based Intrusion Detection Against Adversarial Attacks",
+    "authors": "Onat Gungor, Elvin Li, Zhengli Shang, Yutong Guo, Jing Chen, Johnathan Davis, and Tajana Rosing",
+    "venue": "IEEE Conference on Cybersecurity and Resilience (CSR)",
+    "date": "2024-06-01",
+    "category": "conference",
+    "abstract": "Developed comprehensive evaluation framework benchmarking ML-based IoT IDS against white-box, gray-box, and black-box adversarial attacks. Evaluated state-of-the-art ML/DL models across four IoT datasets using gradient-based, optimization-based, and transfer-based attack methods. Revealed severe vulnerabilities with IDS performance degrading up to 49.5× under adversarial perturbations.",
+    "pdf": "",
+    "arxiv": "",
+    "doi": "10.1109/CSR.2024.10679443",
+    "github": "",
+    "website": "",
+    "status": "Accepted"
+  }
+]

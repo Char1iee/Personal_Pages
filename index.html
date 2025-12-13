@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal webpage - Grad Student seeking intern/full-time opportunities">
+    <title>About | Zhengli Shang</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link active">About</a></li>
+                <li><a href="projects.html" class="nav-link">Projects</a></li>
+                <li><a href="experience.html" class="nav-link">Experience</a></li>
+                <li><a href="publications.html" class="nav-link">Publications</a></li>
+                <li><a href="blog.html" class="nav-link">Blog</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-name">Zhengli Shang</h1>
+                    <p class="hero-role">UCLA MSCS Student</p>
+                    <p class="hero-tagline">Data Science, Machine Learning, AI Software Engineering, Agent Building</p>
+                    <div class="skills-inline" id="skillsContainer">
+                        <!-- Skills will be loaded from skills.json -->
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="assets/images/headshot.jpg" alt="Zhengli Shang" class="profile-img" id="profileImage">
+                </div>
+            </div>
+        </section>
+
+        <!-- Quick Intro -->
+        <section class="intro-section">
+            <p class="intro-text" id="introText">
+                Quick intro (2-3 sentences about your focus/field). This section will be populated from config.json.
+            </p>
+        </section>
+
+        <!-- Education -->
+        <section class="section">
+            <h2 class="section-title">Education</h2>
+            <div class="education-container" id="educationContainer">
+                <!-- Education items will be loaded from experience.json -->
+            </div>
+        </section>
+
+        <!-- Work Experience Highlight -->
+        <section class="section">
+            <div class="section-header">
+                <h2 class="section-title">Work Experience</h2>
+                <a href="experience.html" class="section-link" id="workExperienceLink">View all experience →</a>
+            </div>
+            <div class="highlight-container" id="workExperienceHighlight">
+                <!-- Work experience highlights will be loaded from experience.json -->
+            </div>
+        </section>
+
+        <!-- Projects Highlight -->
+        <section class="section">
+            <div class="section-header">
+                <h2 class="section-title">Projects</h2>
+                <a href="projects.html" class="section-link" id="projectsLink">View all projects →</a>
+            </div>
+            <div class="highlight-container" id="projectsHighlight">
+                <!-- Project highlights will be loaded from projects.json -->
+            </div>
+        </section>
+
+        <!-- Research Highlight -->
+        <section class="section">
+            <div class="section-header">
+                <h2 class="section-title">Research</h2>
+                <a href="experience.html#research" class="section-link" id="researchLink">View all research →</a>
+            </div>
+            <div class="highlight-container" id="researchHighlight">
+                <!-- Research highlights will be loaded from experience.json -->
+            </div>
+        </section>
+
+        <!-- Contact Icons -->
+        <section class="section contact-section">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-icons" id="contactIcons">
+                <!-- Contact icons will be loaded from config.json -->
+            </div>
+        </section>
+    </main>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/navigation.js"></script>
+</body>
+</html>
+

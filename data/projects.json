@@ -1,0 +1,92 @@
+[
+  {
+    "title": "SAGE: Sample-Aware Guarding Engine for Robust Intrusion Detection Against Adversarial Attacks",
+    "description": "Sample-aware defense engine with active learning for adaptive defense selection.",
+    "category": "research",
+    "technologies": ["Python", "PyTorch", "Query-by-Committee", "Uncertainty Sampling", "MAML (Model-Agnostic Meta-Learning)", "Adversarial Training", "XGBoost", "Gradient Boosting"],
+    "features": [
+      "Integrated active learning with targeted data reduction to select optimal defenses against adversarial attacks.",
+      "Built two-level defense selection pipeline identifying highly informative samples for meta-learner training.",
+      "Achieved 201% F1-score improvement over state-of-the-art defenses with 29× computational cost reduction. Paper under review by IEEE TIFS."
+    ],
+    "supervisor": "Prof. Tajana Rosing",
+    "link": "https://arxiv.org/abs/2509.08091",
+    "github": "",
+    "demo": "",
+    "caseStudy": "",
+    "image": "",
+    "date": "Apr 2025 – Jun 2025"
+  },
+  {
+    "title": "CITADEL: Continual Anomaly Detection for Enhanced Learning in IoT Intrusion Detection",
+    "description": "Self-supervised continual learning framework with memory-aware masked autoencoders for IoT security.",
+    "category": "research",
+    "technologies": ["Python", "PyTorch", "Vision Transformer (ViT)", "Masked Autoencoder (MAE)", "Elastic Weight Consolidation (EWC)", "Replay Buffer", "Tabular-to-Image Transformation", "Self-Supervised Learning", "Novelty Detection"],
+    "features": [
+      "Developed self-supervised continual learning framework learning robust benign traffic representations with optimized memory consolidation.",
+      "Integrated tabular-to-image transformation and memory-aware MAE enabling anomaly detection without labeled attack data.",
+      "Designed novelty detection component adapting to emerging threats while retaining known attack detection, achieving 72.9% improvement over VLAD. Paper under review by IEEE IoTJ."
+    ],
+    "supervisor": "Prof. Tajana Rosing",
+    "link": "https://arxiv.org/abs/2508.19450",
+    "github": "",
+    "demo": "",
+    "caseStudy": "",
+    "image": "",
+    "date": "Mar 2025 – Jun 2025"
+  },
+  {
+    "title": "DYNAMITE: Dynamic Defense Selection for Enhancing Machine Learning-based Intrusion Detection Against Adversarial Attacks",
+    "description": "Dynamic defense framework with XGBoost classifier for real-time adaptive defense selection.",
+    "category": "research",
+    "technologies": ["Python", "XGBoost", "FGSM", "PGD", "C&W Attack", "Transfer Attacks", "Adversarial Training", "Feature Squeezing", "Defense Distillation"],
+    "features": [
+      "Developed DYNAMITE framework adaptively selecting most effective defenses against diverse adversarial attacks in real-time.",
+      "Implemented adversarial attack generation and integrated nine state-of-the-art defenses with XGBoost-based dynamic assignment.",
+      "Achieved 76.7% F1-score improvement over random defense with 96.2% computational cost reduction. Best Paper Award at SafeThings 2025."
+    ],
+    "supervisor": "Prof. Tajana Rosing",
+    "link": "https://arxiv.org/abs/2504.13301",
+    "github": "",
+    "demo": "",
+    "caseStudy": "",
+    "image": "",
+    "date": "Jun 2024 – Apr 2025"
+  },
+  {
+    "title": "SAFE: Self-Supervised Anomaly Detection Framework for Intrusion Detection",
+    "description": "Self-supervised anomaly detection transforming tabular traffic into image representations with masked autoencoders.",
+    "category": "research",
+    "technologies": ["Python", "PyTorch", "Vision Transformer (ViT)", "Masked Autoencoder (MAE)", "Self-Supervised Learning", "Tabular-to-Image Transformation", "Reconstruction Error", "Novelty Detection"],
+    "features": [
+      "Proposed SAFE framework transforming tabular network traffic into image-like representations for robust feature learning with MAEs.",
+      "Developed lightweight novelty detection module leveraging MAE-extracted representations to detect unknown and evolving cyber threats without labeled data.",
+      "Achieved 26.2% F1-score improvement over SLAD and 23.5% improvement over Anomal-E across multiple IoT datasets. Accepted by AAAI Workshop on AICS 2025."
+    ],
+    "supervisor": "Prof. Tajana Rosing",
+    "link": "https://arxiv.org/abs/2502.07119",
+    "github": "",
+    "demo": "",
+    "caseStudy": "",
+    "image": "",
+    "date": "Oct 2024 – Mar 2025"
+  },
+  {
+    "title": "Rigorous Evaluation of Machine Learning-Based Intrusion Detection Against Adversarial Attacks",
+    "description": "Comprehensive evaluation framework benchmarking ML-based IoT IDS against white-box, gray-box, and black-box attacks.",
+    "category": "research",
+    "technologies": ["Python", "TensorFlow", "Keras", "FGSM", "PGD", "C&W Attack", "JSMA", "Transfer Attacks", "White-box Attacks", "Gray-box Attacks", "Black-box Attacks"],
+    "features": [
+      "Developed comprehensive evaluation framework benchmarking ML-based IoT IDS against white-box, gray-box, and black-box adversarial attacks.",
+      "Evaluated state-of-the-art ML/DL models across four IoT datasets using gradient-based, optimization-based, and transfer-based attack methods.",
+      "Revealed severe vulnerabilities with IDS performance degrading up to 49.5× under adversarial perturbations. Accepted by IEEE CSR 2024."
+    ],
+    "supervisor": "Prof. Tajana Rosing",
+    "link": "https://ieeexplore.ieee.org/document/10679443",
+    "github": "",
+    "demo": "",
+    "caseStudy": "",
+    "image": "",
+    "date": "Oct 2023 – Jun 2024"
+  }
+]

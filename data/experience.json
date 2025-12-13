@@ -1,0 +1,82 @@
+{
+  "work": [
+    {
+      "title": "Founding Member & Machine Learning Engineer",
+      "company": "Unifinity AI Inc.",
+      "duration": "Apr 2025 – Present",
+      "description": "Developing LLM-powered content generation systems and multi-agent AI pipelines.",
+      "responsibilities": [
+        "Developed and fine-tuned LLMs and diffusion models via Replicate to generate personalized social media content.",
+        "Designed multi-agent pipelines with LangChain for prompt orchestration and model coordination, enabling scalable content generation.",
+        "Built pipelines to analyze user data and generate tailored marketing strategies, improving engagement metrics and ROI.",
+        "Implemented RAG systems including graph-based RAG with Neo4j, integrating user interactions to deliver accurate personalized responses."
+      ],
+      "technologies": ["Python", "LangChain", "OpenAI API", "Stable Diffusion", "Neo4j", "RAG", "LLMs"]
+    },
+    {
+      "title": "Data Analyst Intern",
+      "company": "Alphabet",
+      "duration": "Jun 2024 – Aug 2024",
+      "description": "Built hybrid recommendation systems and automated text processing pipelines for large-scale data analysis.",
+      "responsibilities": [
+        "Built hybrid recommendation system combining collaborative and content-based filtering, achieving 92% top-10 accuracy on 1M+ dataset.",
+        "Reduced feature dimensionality by 30% using RFE and engineered 15+ hybrid features including genre–popularity scores.",
+        "Automated text-to-vector pipelines with TF–IDF and Word2Vec for 500K+ reviews, improving relevance 12%."
+      ],
+      "technologies": ["Python", "Machine Learning", "TF-IDF", "Word2Vec", "Collaborative Filtering", "Content-Based Filtering", "RFE"]
+    },
+    {
+      "title": "Machine Learning Engineering Intern",
+      "company": "Institute of Automation, Chinese Academy of Sciences",
+      "duration": "Jul 2023 – Sep 2023",
+      "description": "Built automated pipelines for multi-robot sensor data processing and ML-ready dataset generation.",
+      "responsibilities": [
+        "Built automated pipelines in Python to log and preprocess multi-robot sensor data, generating structured ML-ready datasets for perception.",
+        "Engineered data collection workflows with ROS/ROS2 and ros1_bridge, ensuring high-quality synchronized streams with 99%+ consistency.",
+        "Reduced manual labeling and experiment setup errors by 30% through scripted dataset validation and cleaning, accelerating robotics ML."
+      ],
+      "technologies": ["Python", "ROS", "ROS2", "ros1_bridge", "Data Engineering"]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master's Degree in Computer Science",
+      "institution": "University of California, Los Angeles",
+      "duration": "Sep 2025 – Jun 2027",
+      "gpa": "",
+      "coursework": []
+    },
+    {
+      "degree": "Bachelor's Degree in Computer Science",
+      "institution": "University of California, San Diego",
+      "duration": "Sep 2023 – Jun 2025",
+      "gpa": "3.97/4.00",
+      "coursework": []
+    },
+    {
+      "degree": "Computer Science and Engineering (Transferred)",
+      "institution": "University of California, Davis",
+      "duration": "Sep 2021 – Jun 2023",
+      "gpa": "3.98/4.00",
+      "coursework": []
+    }
+  ],
+  "research": [
+    {
+      "title": "Research Assistant",
+      "institution": "UC San Diego SEElab (Supervised by Dr. Onat Gungor and Prof. Tajana Rosing)",
+      "duration": "Oct 2023 – Jun 2025",
+      "description": "Conducted research on machine learning-based intrusion detection systems for IoT security, focusing on adversarial robustness, anomaly detection, and continual learning.",
+      "projects": [
+        "SAGE: Sample-Aware Guarding Engine for Robust Intrusion Detection Against Adversarial Attacks",
+        "CITADEL: Continual Anomaly Detection for Enhanced Learning in IoT Intrusion Detection",
+        "DYNAMITE: Dynamic Defense Selection for Enhancing Machine Learning-based Intrusion Detection Against Adversarial Attacks",
+        "SAFE: Self-Supervised Anomaly Detection Framework for Intrusion Detection",
+        "Rigorous Evaluation of Machine Learning-Based Intrusion Detection Against Adversarial Attacks"
+      ],
+      "projectsLink": "projects.html"
+    }
+  ],
+  "teaching": [],
+  "certifications": []
+}

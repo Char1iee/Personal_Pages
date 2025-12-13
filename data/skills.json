@@ -1,0 +1,71 @@
+{
+  "categories": [
+    {
+      "name": "ML / AI",
+      "skills": [
+        {
+          "name": "PyTorch",
+          "icon": ""
+        },
+        {
+          "name": "TensorFlow",
+          "icon": ""
+        },
+        {
+          "name": "scikit-learn",
+          "icon": ""
+        },
+        {
+          "name": "Hugging Face Transformers",
+          "icon": ""
+        },
+        {
+          "name": "LangChain",
+          "icon": ""
+        },
+        {
+          "name": "Continual Learning",
+          "icon": ""
+        }
+      ]
+    },
+    {
+      "name": "Software Development",
+      "skills": [
+        {
+          "name": "Git",
+          "icon": ""
+        },
+        {
+          "name": "CI/CD",
+          "icon": ""
+        },
+        {
+          "name": "Object Oriented Design",
+          "icon": ""
+        },
+        {
+          "name": "Agile practices",
+          "icon": ""
+        }
+      ]
+    },
+    {
+      "name": "Distributed Systems",
+      "skills": [
+        {
+          "name": "AWS",
+          "icon": ""
+        },
+        {
+          "name": "ROS / ROS2",
+          "icon": ""
+        },
+        {
+          "name": "ros1_bridge",
+          "icon": ""
+        }
+      ]
+    }
+  ]
+}
