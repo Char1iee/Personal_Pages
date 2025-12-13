@@ -98,3 +98,9 @@ All content is stored in JSON files in the `data/` directory for easy updates:
 - Focus on professional presentation
 - Modern, clean design
 - SEO-friendly structure
+
+## TODO
+
+- Add coursework projects to projects.json
+- Organize projects in temporal order: most recent being the top. Then order by project name
+- Update blog page
