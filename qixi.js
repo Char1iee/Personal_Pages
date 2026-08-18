@@ -1,5 +1,8 @@
 const canvas = document.querySelector('#bouquet');
 const context = canvas.getContext('2d');
+const music = document.querySelector('#love-song');
+const musicControl = document.querySelector('#music-control');
+const musicLabel = document.querySelector('#music-label');
 const leaf = ['#4c7b5a', '#77966a', '#a9ae73', '#e0ce8b'];
 const particles = [];
 const started = performance.now();
@@ -108,7 +111,30 @@ function draw(time) {
   requestAnimationFrame(draw);
 }
 
+function setMusicState(isPlaying) {
+  musicControl.setAttribute('aria-pressed', String(isPlaying));
+  musicControl.setAttribute('aria-label', isPlaying ? 'Pause our song' : 'Play our song');
+  musicLabel.textContent = isPlaying ? 'Our song is playing' : 'Play our song';
+}
+
+async function playMusic() {
+  try {
+    music.volume = 0.35;
+    await music.play();
+    setMusicState(true);
+  } catch {
+    // Browsers commonly block sound before a visitor interacts; the button remains available.
+    setMusicState(false);
+  }
+}
+
+musicControl.addEventListener('click', async () => {
+  if (music.paused) await playMusic();
+  else { music.pause(); setMusicState(false); }
+});
+
 buildRose();
 resize();
 addEventListener('resize', resize);
 requestAnimationFrame(draw);
+playMusic();
