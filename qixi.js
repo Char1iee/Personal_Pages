@@ -2,7 +2,7 @@ const canvas = document.querySelector('#bouquet');
 const context = canvas.getContext('2d');
 const music = document.querySelector('#love-song');
 const musicControl = document.querySelector('#music-control');
-const musicLabel = document.querySelector('#music-label');
+const musicIcon = document.querySelector('#music-icon');
 const leaf = ['#4c7b5a', '#77966a', '#a9ae73', '#e0ce8b'];
 const particles = [];
 const started = performance.now();
@@ -114,7 +114,7 @@ function draw(time) {
 function setMusicState(isPlaying) {
   musicControl.setAttribute('aria-pressed', String(isPlaying));
   musicControl.setAttribute('aria-label', isPlaying ? 'Pause our song' : 'Play our song');
-  musicLabel.textContent = isPlaying ? 'Our song is playing' : 'Play our song';
+  musicIcon.textContent = isPlaying ? '❚❚' : '▶';
 }
 
 async function playMusic() {
